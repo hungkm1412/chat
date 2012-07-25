@@ -13,3 +13,43 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+Gemfile.lock
+
+##### OSX #####
+.DS_Store
+
+##### Windows #####
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+##### Linux #####
+.*
+!.gitignore
+*~
+# KDE
+.directory
+
+##### Editor #####
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# vim
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# TextMaite
+*.tmproj
+*.tmproject
+tmtags
