@@ -3,3 +3,7 @@
 
 en:
   hello: "Hello world"
+  acitverecord:
+    attributes:
+      user:
+        password_digest: "Password"
